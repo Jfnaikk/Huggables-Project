@@ -42,7 +42,7 @@
   - Anode → 5V  
   - Cathode → GND
  
-  - **LED (optional)**  
+- **LED (optional)**  
   - Anode → D13 (use onboard LED if available)  
   - Cathode → GND
 
