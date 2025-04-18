@@ -80,8 +80,8 @@
 - **False triggers**: Increase threshold or add smoothing to sensor readings.  
 - **Servo jitter**: Ensure a stable 5V supply and common ground reference.
 
-## Author
+## Author and Acknowledgments
+**Jawad Farooq Naik** is a multidisciplinary artist, designer, entrepreneur, and aspiring educator. He holds an MFA in Design from the Dynamic Media Institute at Massachusetts College of Art and Design, and a BFA in Visual Communication Design from the National College of Arts, Lahore, Pakistan.
 
-**Jawad Farooq Naik** – Multidisciplinary artist, designer, entrepreneur, and aspiring educator.  
-Massachusetts College of Art and Design – Dynamic Media Institute.
+Inspired by research in embodied interaction, haptic communication, and tangible computing.
 
