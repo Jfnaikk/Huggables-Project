@@ -1,11 +1,12 @@
 # Huggables
 
-**Huggables** is an interactive prototype designed to bridge the emotional gap in long-distance relationships. It consists of interconnected body pillows that mimic a human hug by detecting one partner’s heartbeat and simulating corresponding touch sensations on the other pillow.
+**Huggables** is an interactive prototype designed to bridge the emotional gap in long-distance relationships. It consists of interconnected body pillows that mimic a human hug by detecting one partner’s heartbeat and simulating corresponding sensations on the other pillow vice-versa.
 
 ## Features
 
 - **Bidirectional heartbeat synchronization**: When one pillow’s pulse sensor detects a heartbeat, the partner’s pillow actuates a rhythmic heartbeat servo.
-- **Gentle breathing simulation**: A second servo runs a breathing pattern in response to continuous heartbeat detection.
+- **Gentle breathing simulation**: A second continuous servo attached to a 3D Printed Linear Actuator, runs a breathing pattern in response to continuous heartbeat detection.
+- **Temprature Simulation**: A heating pad simulates temprature.
 - **Motion timeout**: Both servos snap back to neutral when no heartbeat is detected for a configurable interval.
 - **LED feedback**: Onboard LED blinks on each detected heartbeat (optional).
 - **Modular design**: Easily adjust thresholds and timings in one sketch.
@@ -14,7 +15,8 @@
 
 - Arduino-compatible board (e.g., Arduino Uno, Mega)  
 - Pulse Sensor attached to an analog pin (A0)  
-- 2 × hobby servos for heartbeat and breathing (pins D3 and D9)  
+- 2 × hobby servos for heartbeat and breathing, mini servo for heartbeat and continuous Servo for breathing(pins D3 and D9).
+- 1 x Heating Pad 5V
 - Optional LED connected to pin 13 or use onboard LED  
 - External 5V power supply for servos  
 - Jumper wires and breadboard
@@ -36,7 +38,11 @@
   - VCC → 5V (external supply)  
   - GND → common GND
 
-- **LED (optional)**  
+- **Heating Pad**  
+  - Anode → 5V  
+  - Cathode → GND
+ 
+  - **LED (optional)**  
   - Anode → D13 (use onboard LED if available)  
   - Cathode → GND
 
